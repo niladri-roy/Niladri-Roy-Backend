@@ -1,0 +1,82 @@
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 660px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 22.5px;
+    width: 764px;
+    height: 185px;
+}
+
+.name{
+    text-transform: uppercase;
+    width: 310px;
+    height: 49px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 37.5px;
+    line-height: 130%;
+    /* identical to box height, or 49px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #FEFEFE;
+}
+
+.designation{
+    width: 764px;
+    height: 41px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 27px;
+    line-height: 40px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #CFCFCF;
+}
+
+.designation span{
+    font-weight: 800;
+    color: #FEFEFE
+}
+
+.quote{
+    width: 570px;
+    height: 50px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19.5px;
+    line-height: 130%;
+    /* or 25px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.15em;
+
+    color: #CFCFCF;
+}
+
+.home-image{
+    width: 324.75px;
+    height: 463.5px;
+}
