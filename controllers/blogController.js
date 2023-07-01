@@ -4,10 +4,7 @@ const Blog = require('../models/blogModel');
 const getAllBlogs = async(req, res, next) => {
     try{
         const blogs = await Blog.find();
-        res.status(200).json({
-            status: 'success',
-            blogs
-        });
+        res.status(200).json(blogs)
     } catch (error) {
         res.status(404).json({
             status: 'fail',
