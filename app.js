@@ -1,6 +1,7 @@
+//Import the required dependencies to create the app
 const express = require('express');
 const blogRoute = require('./routes/blogRoute');
-const connectDB = require('./config/dataBase');
+const connectDB = require('./config/database');
 const cors = require('cors')
 console.log("App Import Line -> Working Good");
 
